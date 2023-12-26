@@ -173,7 +173,71 @@ main {
 }
 
 /* resume styles */
+.resume {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 50px;
+}
 .resume-container {
     display: flex;
     gap: 24px;
-}
+    text-align: left;
+    }
+    
+    .resume-head-title {
+        font-size: 30px;
+        font-weight: 700;
+        color: #474747;
+    }
+    
+    .what-description {
+        color: #757575;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .resume-info .title {
+        font-size: 25px;
+        font-weight: 700;
+        color: #474747;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .resume-info .sub-title {
+        font-size: 20px;
+        font-weight: 600;
+        color: #757575;
+        
+        .resume-btn {
+            margin-top: 30px;
+        }
+    
+        /* contacty styles */
+    
+        .contact-container {
+            display: flex;
+            margin-left: ;
+            padding: 130px 230px;
+            gap: 110px;
+        }
+    
+        .contact li {
+            list-style: none;
+        }
+    
+        .contact-social img {
+            width: 2%;
+        }
+    
+        .contact-media a {
+            text-decoration: none;
+            margin-left: 15px;
+        }
+    
+    
+    
+        .contact-description {
+            color: #474747;
+        }
